@@ -23,6 +23,12 @@ h1 {
     /* Выстраивание элементов в строку */
     display: flex;
 }
+.Gallery {
+    margin: 0 auto;
+}
+.picture{
+    width: 100%;
+}
 
 .nav-li {
     /* Отступ сверху и снизу 0, справа и слева 10px */
@@ -38,7 +44,9 @@ h1 {
     text-decoration: none;
 }
 
-
+div {
+    background-color: rgb(201, 201, 201);
+}
 .banner-img {
     margin: 3vh 0;
     width: 40vw;
