@@ -8,6 +8,10 @@ h1 {
     color: rgb(96, 96, 96);
     text-align: center;
 }
+.h2up {
+    color: rgb(134, 134, 134);
+    text-align: center;
+}
 .nav {
     padding: 15px;
     background-color: grey;
@@ -64,4 +68,10 @@ footer {
 }
 .wrapper {
     display: flex;
+}
+.p {
+    background-color: slategrey;
+    color: beige;
+    font-size: 33px;
+    text-decoration: none;
 }

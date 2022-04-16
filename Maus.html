@@ -6,22 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Main-Tanks</title>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <title>Maus</title>
 </head>
 
 <body>
     <div class="nav">
         <ul class="nav-ul">
+            <li class="nav-li"><a href="index.html">Main</a></li>
             <li class="nav-li"><a href="stug lll g.html">Favorite Tank</a></li>
             <li class="nav-li"><a href ="tanks.html">Tanks</a></li>
         </ul>
+
+    </div>  
+    <div class="Gallery">
+        <div><img class="picture" src="https://a.d-cd.net/682965as-960.jpg"></div>
+        <div><img class="picture" src="https://i.ytimg.com/vi/w03GMcz5MOs/maxresdefault.jpg"></div>
+        <div><img class="picture" src="https://wiki.gcdn.co/images/e/ec/Blitz_Maus_screen.png"></div>
+        <div><img class="picture" src="https://history-doc.ru/wp-content/uploads/2021/06/3-14.jpg"></div>
     </div>
-    <h1>The Tanks</h1>
-    <h2 class ="h2up">Tap the buttons upper and see a tanks!</h2>
-    <div>
-        <img class="img1" src="https://merriam-webster.com/assets/ld/images/legacy_print_images/tank.gif" alt="lorem ipsum"
-            class="banner-img">
-    </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
     <footer>
         <h1>Lorem, ipsum dolor sit amet consectetur adipisicing.</h1>
         <div class="wrapper">
@@ -44,6 +51,9 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.Gallery').slick({});
+        });
+      </script>
 </body>
-
-</html>

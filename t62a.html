@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-62A</title>
     <link rel="stylesheet" href="style.css">
-    <title>Main-Tanks</title>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 </head>
-
 <body>
     <div class="nav">
         <ul class="nav-ul">
+            <li class="nav-li"><a href="index.html">Main</a></li>
             <li class="nav-li"><a href="stug lll g.html">Favorite Tank</a></li>
             <li class="nav-li"><a href ="tanks.html">Tanks</a></li>
         </ul>
+    </div>  
+    <div class="Gallery">
+        <div><img class="picture" src="https://i.ytimg.com/vi/lsgD28Lt9DQ/maxresdefault.jpg"></div>
+        <div><img class="picture" src="https://i.ytimg.com/vi/8X5x5dFsa4U/maxresdefault.jpg"></div>
+        <div><img class="picture" src="https://nakleikashop.ru/images/detailed/56/WOT-078.jpg"></div>
+        <div><img class="picture" src="http://scalemart.ru/upload/iblock/0da/0da4e359953b866a203edee3a3337e0a.JPG"></div>
     </div>
-    <h1>The Tanks</h1>
-    <h2 class ="h2up">Tap the buttons upper and see a tanks!</h2>
-    <div>
-        <img class="img1" src="https://merriam-webster.com/assets/ld/images/legacy_print_images/tank.gif" alt="lorem ipsum"
-            class="banner-img">
-    </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
     <footer>
         <h1>Lorem, ipsum dolor sit amet consectetur adipisicing.</h1>
         <div class="wrapper">
@@ -44,6 +48,9 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.Gallery').slick({});
+        });
+      </script>
 </body>
-
-</html>
