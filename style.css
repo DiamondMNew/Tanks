@@ -3,6 +3,7 @@ body {
     font-size: 29px;
     margin: 0;
     font-family: 'Bebas Neue', cursive;
+    
 }
 h1 {
     color: rgb(96, 96, 96);
@@ -74,4 +75,5 @@ footer {
     color: beige;
     font-size: 33px;
     text-decoration: none;
+    padding: 1cm;
 }
