@@ -43,14 +43,21 @@ h1 {
     margin: 1vw;
 }
 .nav-li:hover {
-    color: azure;
+    color: rgb(255, 255, 255);
     color: black;
     /* Подчеркивание текста при наведении */
     text-decoration: none;
 }
 
+.nav-li2 {
+    /* Отступ сверху и снизу 0, справа и слева 10px */
+    padding: 0 2vw;
+    background-color: grey;
+    color: black;
+    height: 10px;
+}    
 div {
-    background-color: rgb(201, 201, 201);
+    background-color: rgb(255, 255, 255);
 }
 .banner-img {
     margin: 3vh 0;
@@ -59,9 +66,16 @@ div {
     padding-right: 28vw;
 }
 .img1 {
-    margin: 23.4vh;
-}
+    margin: 10vh;
+    background-color: white;
+    padding-left: 37%;
 
+}
+.img2 {
+    width: 200px;
+    height: 120px;
+    
+}
 
 footer {
     background-color: rgb(73, 73, 73);
@@ -71,9 +85,18 @@ footer {
     display: flex;
 }
 .p {
-    background-color: slategrey;
+    background-color: rgb(119, 119, 119);
     color: beige;
     font-size: 33px;
     text-decoration: none;
     padding: 1cm;
+}
+.h6 {
+    color:rgb(0, 0, 0);
+    background-color: gray;
+    margin: 10px;
+}
+ 
+.h2 {
+    background-color: wheat;
 }
